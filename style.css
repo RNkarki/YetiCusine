@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -138,25 +140,106 @@ a:hover{
     /*Pacifico*/
 }
 
+.intro-bsn{
+    margin: 40px 70px;
+}
+
+.intro-para{
+    font-size: medium;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 /*.pacifico-regular {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
   }*/
 
+  .web-img {
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    width: 35%; /* Adjust the width to hide half of the image */
+    top: 50%;
+  }
+
+  .img-yeti{
+    width: 50rem;
+  }
+
+  .intro-para{
+  display: block;
+  line-height: 1.5;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-size: 23px;
+  font-style: normal;
+}
+
+.get-strt{
+    width: 10rem;
+    height: 50px;
+    background-color: #A81F63;
+    border: 1px;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: all,0.5s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+.get-strt:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: all,0.5s;
+}
+
+.btn{
+    margin-top: 60px;   
+}
+
+.services{
+    color: #8B8679;
+}
+
+.serv{
+    margin-top: 20px;;
+}
+
 
   @media (max-width: 952px){
     .leading-tight{
         margin: 5px 60px;
         font-style: normal;
-        font-size: 20px;
+        font-size: 25px;
+    }
+
+    .first-phase{
+        margin-top: 20px;
+    }
+
+    .intro-bsn{
+        margin: 40px 70px;
     }
   } 
 
   @media (max-width: 858px){
     .leading-tight{
-        margin: 5px 60px;
+        margin: 3px 67px;
         font-style: normal;
-        font-size: 20px;
+        font-size: 25px;
     }
-  }
+
+    .intro-para{
+        font-size: 15px;
+    }
+
+    .intro-bsn{
+        margin-top: 30px;
+    }
+  }  
