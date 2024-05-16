@@ -12,3 +12,7 @@ document.getElementById('check').addEventListener('click', () => {
 });
 
 const navbar = document.getElementById("navbar");
+
+document.getElementById('check').addEventListener('click', () => {
+    navbar.style.backgroundColor = "red";
+})
