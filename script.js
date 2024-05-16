@@ -1,4 +1,3 @@
-//?This is to make the navbar downward text move down when we click the menu option.
 const firstPhase = document.querySelector('.first-phase');
 let isMoved = false;
 
@@ -11,3 +10,4 @@ document.getElementById('check').addEventListener('click', () => {
     
     isMoved = !isMoved;
 });
+
