@@ -97,6 +97,10 @@ a:hover {
     padding-left: 20px;
   }
 
+  nav{
+    background-color: red;
+  }
+
   nav ul li a {
     font-size: 16px;
   }
