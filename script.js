@@ -10,9 +10,3 @@ document.getElementById('check').addEventListener('click', () => {
     
     isMoved = !isMoved;
 });
-
-const navbar = document.getElementById("navbar");
-
-document.getElementById('check').addEventListener('click', () => {
-    navbar.style.backgroundColor = "red";
-})
